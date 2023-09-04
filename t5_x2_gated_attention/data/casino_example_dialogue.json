@@ -1,0 +1,197 @@
+{
+    "dialogue_id": 0,
+    "chat_logs": [
+        {
+            "text": "Hello! \ud83d\ude42 Let's work together on a deal for these packages, shall we? What are you most interested in?",
+            "task_data": {},
+            "id": "mturk_agent_1"
+        },
+        {
+            "text": "Hey! I'd like some more firewood to keep my doggo warm. What do you need?",
+            "task_data": {},
+            "id": "mturk_agent_2"
+        },
+        {
+            "text": "I need firewood as well. We have a large group consisting of mostly senior citizens, including my grandma, so we'd like the firewood to keep everyone warm.",
+            "task_data": {},
+            "id": "mturk_agent_1"
+        },
+        {
+            "text": "I see. \ud83d\ude2e What are you least interested in?",
+            "task_data": {},
+            "id": "mturk_agent_2"
+        },
+        {
+            "text": "We can make do without extra water. Can we trade two waters for an extra firewood package and an extra food package?",
+            "task_data": {},
+            "id": "mturk_agent_1"
+        },
+        {
+            "text": "We could do without the water as well. I'm willing to trade you 3 firewood for 3 food and 2 waters",
+            "task_data": {},
+            "id": "mturk_agent_2"
+        },
+        {
+            "text": "We need some firewood too, though! \u2639\ufe0f Let's try to make a deal that benefits us both! \ud83d\ude42 Could I have 1 firewood, 3 food, and 3 waters?",
+            "task_data": {},
+            "id": "mturk_agent_1"
+        },
+        {
+            "text": "I meant I would give you my firewood, what would you trade in return?",
+            "task_data": {},
+            "id": "mturk_agent_2"
+        },
+        {
+            "text": "Oh sorry for the confusion. \ud83d\ude2e In that case, thank you for the generosity! \ud83d\ude42 How about if I have 3 firewood, 1 food, and 1 water?",
+            "task_data": {},
+            "id": "mturk_agent_1"
+        },
+        {
+            "text": "I can do that for 3 food and 3 water?",
+            "task_data": {},
+            "id": "mturk_agent_2"
+        },
+        {
+            "text": "I think we're close. Let's shake hands on this: 3 firewood, 1 food for me, and then 2 food and 3 water for you. I'll make sure your food packages have extra doggy treats! \ud83d\ude42 Is that a deal?",
+            "task_data": {},
+            "id": "mturk_agent_1"
+        },
+        {
+            "text": "Submit-Deal",
+            "task_data": {
+                "issue2youget": {
+                    "Firewood": "0",
+                    "Water": "3",
+                    "Food": "2"
+                },
+                "issue2theyget": {
+                    "Firewood": "3",
+                    "Water": "0",
+                    "Food": "1"
+                }
+            },
+            "id": "mturk_agent_2"
+        },
+        {
+            "text": "Accept-Deal",
+            "task_data": {
+                "data": "accept_deal"
+            },
+            "id": "mturk_agent_1"
+        }
+    ],
+    "participant_info": {
+        "mturk_agent_1": {
+            "value2issue": {
+                "Medium": "Food",
+                "Low": "Water",
+                "High": "Firewood"
+            },
+            "value2reason": {
+                "High": "We have a larger group than normal and therefore require extra firewood to keep everyone warm, and we also have no lanterns or other light source available.",
+                "Medium": "Extra food will be needed to feed our larger than normal-sized group or else we'll go hungry which will certainly impact our trip in a negative way.",
+                "Low": "Our group has sufficient water from our complement basic supplies, particularly if we ration the water sparingly among ourselves."
+            },
+            "outcomes": {
+                "points_scored": 19,
+                "satisfaction": "Slightly satisfied",
+                "opponent_likeness": "Slightly like"
+            },
+            "demographics": {
+                "age": 43,
+                "gender": "male",
+                "ethnicity": "white american",
+                "education": "some 4 year college, bachelor's degree"
+            },
+            "personality": {
+                "svo": "proself",
+                "big-five": {
+                    "extraversion": 5.0,
+                    "agreeableness": 6.0,
+                    "conscientiousness": 6.0,
+                    "emotional-stability": 5.0,
+                    "openness-to-experiences": 5.5
+                }
+            }
+        },
+        "mturk_agent_2": {
+            "value2issue": {
+                "Low": "Food",
+                "Medium": "Water",
+                "High": "Firewood"
+            },
+            "value2reason": {
+                "High": "my dog has fleas, the fire repels them.",
+                "Medium": "i'm dehydrated, and i need to drink constantly.",
+                "Low": "i'm on a diet, trying to lose weight."
+            },
+            "outcomes": {
+                "points_scored": 18,
+                "satisfaction": "Extremely satisfied",
+                "opponent_likeness": "Extremely like"
+            },
+            "demographics": {
+                "age": 22,
+                "gender": "female",
+                "ethnicity": "asian american",
+                "education": "some 4 year college, bachelor's degree"
+            },
+            "personality": {
+                "svo": "proself",
+                "big-five": {
+                    "extraversion": 4.0,
+                    "agreeableness": 6.0,
+                    "conscientiousness": 5.5,
+                    "emotional-stability": 3.0,
+                    "openness-to-experiences": 7.0
+                }
+            }
+        }
+    },
+    "annotations": [
+        [
+            "Hello! \ud83d\ude42 Let's work together on a deal for these packages, shall we? What are you most interested in?",
+            "promote-coordination,elicit-pref"
+        ],
+        [
+            "Hey! I'd like some more firewood to keep my doggo warm. What do you need?",
+            "other-need,elicit-pref"
+        ],
+        [
+            "I need firewood as well. We have a large group consisting of mostly senior citizens, including my grandma, so we'd like the firewood to keep everyone warm.",
+            "other-need"
+        ],
+        [
+            "I see. \ud83d\ude2e What are you least interested in?",
+            "elicit-pref"
+        ],
+        [
+            "We can make do without extra water. Can we trade two waters for an extra firewood package and an extra food package?",
+            "non-strategic"
+        ],
+        [
+            "We could do without the water as well. I'm willing to trade you 3 firewood for 3 food and 2 waters",
+            "promote-coordination"
+        ],
+        [
+            "We need some firewood too, though! \u2639\ufe0f Let's try to make a deal that benefits us both! \ud83d\ude42 Could I have 1 firewood, 3 food, and 3 waters?",
+            "promote-coordination"
+        ],
+        [
+            "I meant I would give you my firewood, what would you trade in return?",
+            "promote-coordination"
+        ],
+        [
+            "Oh sorry for the confusion. \ud83d\ude2e In that case, thank you for the generosity! \ud83d\ude42 How about if I have 3 firewood, 1 food, and 1 water?",
+            "non-strategic"
+        ],
+        [
+            "I can do that for 3 food and 3 water?",
+            "non-strategic"
+        ],
+        [
+            "I think we're close. Let's shake hands on this: 3 firewood, 1 food for me, and then 2 food and 3 water for you. I'll make sure your food packages have extra doggy treats! \ud83d\ude42 Is that a deal?",
+            "small-talk"
+        ]
+    ]
+}
